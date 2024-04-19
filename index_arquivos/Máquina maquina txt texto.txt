@@ -1,0 +1,70 @@
+﻿
+https://www.htmlprogressivo.net/2013/04/Como-fazer-o-text-deslizar-pela-tela-em-HTML.html
+TXT TESTO Txt txt
+<br/><textarea rows="10" cols="100" maxlength="1500">
+TEXTO AQUI
+</textarea><BR/>
+<!------------------------------txt-----------texto------------------->
+OUTRA MAQUINA
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/marquee
+
+
+MAQUINA  kkkkkkkkkk
+<marquee> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk <br></marquee>
+
+<marquee behavior="alternate">
+<center>
+<font face="Comic Sans MS" size="4" color="#ff0000">
+<b>
+<blink>
+em movimento
+</blink>
+</b>
+</font>
+</center>
+</marquee>
+
+
+<b id='piscando' style="transition-duration:0.5s">
+TEXTO PISCANDO
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script>
+
+
+<p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+<p>Texto em itálico com <i>italics<i> e <em>emphasis</em>.</p>
+<p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+<p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+<p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+
+<p>Este é um texto com um <span>
+trecho em destaque</span>.</p>
+<p>
+Este é um texto com um <span
+style="background: #1abc9c; border-radius:5px; padding:5px">
+trecho em destaque</span>.
+</p>
+
+https://www.htmlprogressivo.net/2013/04/Como-fazer-o-text-deslizar-pela-tela-em-HTML.html
+<!------------------------------------------------------------------>
+<p>
+Este é um texto com um <span
+style="background: #1abc9c; border-radius:5px; padding:5px">
+trecho em destaque</span>.
+</p>
+
+
+
+
+
+
